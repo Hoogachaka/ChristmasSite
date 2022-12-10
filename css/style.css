@@ -373,10 +373,16 @@ h1 {
 .itemPreview {
   display: flex;
   justify-content: center;
-  align-items: center;
-  border: 3px solid blue;
+  align-items: start;
+  border: 3px solid black;
   margin: 30px;
   flex-grow: 1;
+  color: white;
+  font-family: cursiveFont;
+  font-size: 40px;
+}
+.itemPreview:hover {
+  border: 3px inset white;
 }
 
 
