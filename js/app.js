@@ -5,5 +5,5 @@ const link = () => {
     window.location.href = "/pages/nav.html"
 }
 const superLink = (location) => {
-    window.location.href = location
+    window.location.href = "/ChristmasSite" + location
 }
